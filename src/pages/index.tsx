@@ -33,8 +33,8 @@ export default function Home() {
 
         {/* Welcome To Profile */}
         {/* Welcome To Profile */}
-
-        <div className="flex min-h-screen items-center justify-center bg-gradient-to-tr to-blue-700 from-indigo-900 p-10 sm:text-center ">
+        {/* min-h-screen */}
+        <div className="flex h-[500px] sm:h-[500px] md:h-[500px] xl:h-[850px]  items-center justify-center bg-gradient-to-tr to-blue-700 from-indigo-900 p-10 sm:text-center ">
           <div className="w-max ">
             <h1 className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 text-3xl sm:text-5xl text-white font-bold">
               My Name Is
